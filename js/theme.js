@@ -31,6 +31,8 @@ themeToggle.addEventListener('click', () => {
   }
 });
 
+window.onload = enableDark();
+
 // Change the theme with the time
 /*
 if (today === undefined) {
