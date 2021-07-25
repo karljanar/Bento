@@ -10,8 +10,8 @@
 
   /* Light theme  */
   --accent: #186efd60; /* Hover color */
-  --bg: #0f0027;       /* Background color */
-  --sbg: rgb(17, 17, 66);       /* Cards color */
+   --bg: rgb(28, 27, 34);       /* Background color */
+  --sbg: rgb(43, 42, 51);        /* Cards color */
   --fg: #d8dee9;       /* Foreground color */
   --imgcol: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));    /* Filter color */
 
@@ -37,8 +37,8 @@
 /* Dark theme  */
 .darktheme {
   --accent: #186efd60; /* Hover color */
-  --bg: #0f0027;       /* Background color */
-  --sbg: rgb(17, 17, 66);      /* Cards color */
+  --bg: rgb(28, 27, 34);       /* Background color */
+  --sbg: rgb(43, 42, 51);      /* Cards color */
   --fg: #d8dee9;       /* Foreground color */
   --imgcol: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));    /* Filter color */
 }
