@@ -1,4 +1,3 @@
-const iconElement = document.querySelector('.weather-icon');
 const tempElement = document.querySelector('.temperature-value p');
 const descElement = document.querySelector('.temperature-description p');
 
@@ -43,7 +42,6 @@ function getWeather(latitude, longitude) {
       weather.temperature.value =
         tempUnit == 'C' ? celsius : (celsius * 9) / 5 + 32;
       weather.description = data.weather[0].description;
-      weather.iconId = data.weather[0].icon;
     })
     .then(function () {
       displayWeather();
@@ -52,7 +50,6 @@ function getWeather(latitude, longitude) {
 
 // Display Weather info
 function displayWeather() {
-  iconElement.innerHTML = `<img src="icons/Dark/${weather.iconId}.png"/>`;
   tempElement.innerHTML = `${weather.temperature.value}°<span class="darkfg">${tempUnit}</span>`;
   descElement.innerHTML = weather.description;
 }
